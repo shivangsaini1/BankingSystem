@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banking System</title>
+<link href="style.css" rel="Stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1 id="title">Login</h1>
+		<form action='LoginServlet' method="post">
+			<label>Enter Username: </label> <input type="text" name="uname"
+				id="username"> <label>Enter Password: </label> <input
+				type="password" name="password" id="password"> <input
+				type="submit" value="Login" id="submit">
+			<p>
+				If you are a new user click <a href="SignUp.jsp">Register</a>
+			</p>
+		</form>
+	</div>
+
+</body>
+</html>
+
+
+
+<!-- 
+	    <form action="InfoServlet" method="post">
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="balance">Balance:</label>
+        <input type="number" id="balance" name="balance" required><br><br>
+        <input type="submit" value="Create Account">
+    </form>
+    
+    <form action="DepositServlet" method="post">
+        <label for="name">Id:</label><br>
+        <input type="number" id="id" name="id"><br>
+        <label for="balance">Deposit:</label><br>
+        <input type="text" id="balance" name="balance"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+ -->
